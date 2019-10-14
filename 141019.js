@@ -31,3 +31,8 @@ function multiplicacao(){
     var resultado = parseFloat(resultado.toFixed(2));
     document.getElementById('resultado').setAttribute("value",resultado)
 }
+function raizQuadrada(){
+    var raizQuadrada = parseFloat(document.getElementById('resultado').value)
+    var raizQuadrada = Math.sqrt(raizQuadrada)
+    document.getElementById('raiz').setAttribute("value",raizQuadrada)
+}
