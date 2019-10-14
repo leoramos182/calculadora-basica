@@ -8,4 +8,7 @@ Aplicativo simulando uma calculadora
 3.Resultado é apresentado ao usuário
 ---
 # Operações Matemáticas aceitas pela calculadora
-<li>Soma </li>
+<li>Soma</li>
+<li>Subtração</li>
+<li>Divisão</li>
+<li>Multiplicação</li>
