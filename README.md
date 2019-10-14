@@ -2,7 +2,9 @@
 Aplicativo simulando uma calculadora
 
 # Fluxograma da Calculadora Básica
-<ol>Usuário digita dois números (inteiros ou fracionados) </ol>
+<ol>1.Usuário digita dois números (inteiros ou fracionados) </ol>
+<ol>2.Usuário escolhe o tipo de equação matemática</ol>
+<ol>3.Resultado é mostrado ao usuário</ol>
 
 # Operações Matemáticas aceitas pela calculadora
 <li>Soma</li>
