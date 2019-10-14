@@ -11,3 +11,4 @@ Aplicativo simulando uma calculadora
 <li>Subtração</li>
 <li>Divisão</li>
 <li>Multiplicação</li>
+  <li>Raiz Quadrada</li>
