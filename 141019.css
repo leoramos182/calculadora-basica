@@ -1,3 +1,17 @@
 button {
-    width: 100%
+    width: 100%;
+    font-size: 2rem!important;
+    
+}
+body{
+    position: absolute;
+    left: 30px;
+}
+.button-center{
+    position: relative;
+    left: 74px;
+}
+.number-center{
+    position: relative;
+    left: 38px;
 }

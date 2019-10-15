@@ -1,9 +1,17 @@
 <head>
         <link rel="stylesheet" href="141019.css">
         <meta charset="UTF-8">
+        <!-- Última versão CSS compilada e minificada -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Tema opcional -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Última versão JavaScript compilada e minificada -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div>
+    <div class="number-center">
         <table>
             <tr>
                 <td>Número 1:</td>
@@ -15,17 +23,17 @@
             </tr>
         </table>
     </div>
-    <div>
+    <div class="button-center">
         <table>
             <tr>
-                <td><button id = "somar" onclick="somar()">Somar</button></td>
-                <td><button id = "subtracao" onclick="subtracao()">Subtrair</button></td>
-                <td><button id="raizQuadrada" onclick="raizQuadrada()">Raiz Quadrada</button></td>
+                <td><button id = "somar" class="operator btn btn-info" onclick="somar()">+</button></td>
+                <td><button id = "subtracao" class="operator btn btn-info" onclick="subtracao()">-</button></td>
+                <td><button id="raizQuadrada" class="all-clear function btn btn-danger btn-sm" onclick="raizQuadrada()">Raiz Quadrada</button></td>
             </tr>
             <tr>
-                    <td><button id = "divisao" onclick="divisao()">Dividir</button></td>
-                    <td><button id = "multiplicacao" onclick="multiplicacao()">Multiplicar</button></td>
-                    <td><button id="numPrimo" onclick="primo()">Número primo?</button></td>
+                    <td><button id = "divisao" class="operator btn btn-info" onclick="divisao()">÷</button></td>
+                    <td><button id = "multiplicacao" class="operator btn btn-info" onclick="multiplicacao()">x</button></td>
+                    <td><button id="numPrimo" class="btn btn-success" onclick="primo()">Número primo?</button></td>
                 </tr>
         </table>
     </div>
