@@ -4,12 +4,18 @@ button {
     
 }
 body{
-    position: absolute;
-    left: 30px;
+    left:35%; 
+    top: 30%;
+    right: 30%;
+    bottom: 30%;
+    position:absolute;
+}
+.font-bold{
+    font-weight: bold;
 }
 .button-center{
     position: relative;
-    left: 74px;
+    left: 97px;
 }
 .number-center{
     position: relative;
